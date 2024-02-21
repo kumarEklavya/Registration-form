@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Registration Form</title>
+</head>
+<body bgcolor="white">
+    <center>
+        <h3><b>Employee Registration</b></h3>
+        <form method="post">
+        <table border="1">
+            <tr>
+                <th>Employee id:</th>
+                <td><input type="text" id="EMPID" name="txtid"></td>
+
+            </tr>
+            <tr>
+                <th>Employee Name:</th>
+                <td><input type="text" name="txtNAME" id="EMPNAME"></td>
+            </tr>
+            <tr>
+                <th>Password:</th>
+                <td><input type=password maxlength="10" id="EMPPASS" name="txtPASS"></td>
+        
+            </tr>
+            <tr>
+                <th>Address::</th>
+                <td><textarea rows="5" cols="20" id="EMPADD" name="txtADD"></textarea></td>/>
+            </tr>
+            <tr>
+                <th>Gender:</th>
+                <td>
+                    Male:<input type="radio" name="rd1" value="MALE" checked>
+                    Female:<input type="radio" name="rd1"  value="FEMALE" checked>
+                </td>
+            </tr>
+            <tr>
+                <th>City</th>
+                <td>
+                    <select name="txtCity" id="EMPCITY">
+                        <option>Indore</option>
+                        <option>Delhi</option>
+                        <option selected>Kolkata</option>
+                        <option>Patna</option>
+                        <option>Mumbai</option>
+                        
+                
+                        
+                    </select>
+
+                </td>
+            </tr>
+            <tr>
+                <th>Qualification:</th>
+                <td>
+                    Diploma<input type="checkbox"checked name="chk1" value="Diploma">
+                    UG<input type="checkbox" name="chk2" value="UG">
+                    PG<input type="checkbox" name="chk3" value="PG">
+                </td>
+            </tr>
+            <TR>
+                <th>DOB:</th>
+                <td><input type="date" name="txtDOB" id="EMPDOB"></td>
+            </TR>
+            <tr>
+                <th>Time:</th>
+                <td><input type="time" name="txtTime" id="EMPTIME"></td>
+            </tr>
+            <tr>
+                <th>Email::</th>
+                <td><input type="email" name="txtemail" id="EMPEMAIL"></td>
+            </tr>
+            <tr>
+                <th>Upload:</th>
+                <td><input type="file" name="txtFile" id="EMPFILE"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+
+        </table>
+    </form>
+        
+    
+    </center>
+    
+</body>
+</html>
